@@ -1,0 +1,27 @@
+<div class='text-center'>
+  <h2>{{name}}</h2>
+  <p>{{{get_emoji}}}</p>
+  <p>{{description}}</p>
+  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  <p>
+    {{#if loggedIn}}
+      <form class='comment-form needs-validation container row' novalidate>
+        <div>
+          <textarea
+            class='comment-textarea form-control'
+            name='comment-body'
+            required
+          ></textarea>
+          <div class='invalid-feedback'>
+            Can't send an empty comment!
+          </div>
+        </div>
+
+        <div>
+          <button class='button-add-comment' type='submit'>add comment</button>
+        </div>
+      </form>
+    {{/if}}
+  </p>
+
+</div>
