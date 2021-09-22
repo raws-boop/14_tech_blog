@@ -4,7 +4,7 @@
 
 This is a full stack tech blog that will allow a user to create a login, add and delete personal blog posts, view others blog posts, logout and log in again. 
 
-Check out the deployed page [here](https://bootcamp-read-me.herokuapp.com/)
+Check out the deployed page [here](https://uw-wk14-tech-blog.herokuapp.com/)
 
 # Questions
 
